@@ -245,6 +245,142 @@ body:not([data-bodyview="set"]) .navigation .set_link.active a:hover {
 }
 
 
+/**
+ * Thumbnails
+ */
+
+body[data-view="index"] .thumbnails {
+	display: block;
+}
+
+.thumbnails {
+	display: none;
+	text-align: center;
+	padding: 180px 0px 70px 0px;
+}
+
+.thumbnail {
+	display: block;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+    padding-bottom: 60px;
+    width: 100% !important;
+}
+
+.thumbnail > a:hover .thumb_title span {
+
+}
+
+.thumbnail > a:active .thumb_title span {
+
+}
+
+/* Move the thumbnail down on click */
+.thumbnail > a:active .thumb_image {
+	-webkit-transform: translate(0, 2px);
+}
+
+.thumbnail.active .thumb_image {
+	border: 1px solid #cccccc;
+}
+
+.thumbnail .thumb_image {
+	/*background-color: #eee;*/
+	margin-bottom: 16px;
+	position: relative;
+}
+
+.thumbnail .thumb_image img {
+	border: 0;
+	display: block;
+
+  	/*width: 100%;
+    min-width: 100%;
+    height: auto;*/
+    
+    margin: auto;
+}
+
+.thumbnail .thumb_image.default_thumb {
+	background: #333;
+	min-height: 200px;
+	/*min-width: 700px;*/
+}
+
+.thumbnail .thumb_image.default_thumb img {
+	display: none;
+}
+
+.thumbnail .thumb_image.notitle_notag {
+	margin-bottom: 22px;
+}
+
+.thumbnail .loading {
+	display: none;
+	position: absolute;
+	top: 15px; left: 15px;
+	text-align: center;
+	z-index: 3;
+}
+
+.thumbnail .thumb_title {
+	color: #000;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-rendering: optimizeLegibility;
+}
+
+.thumbnail .thumb_title span {
+
+}
+
+.thumbnail .thumb_tags {
+	margin-top: 2px;
+	color: #aaa;
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+.thumbnail .thumb_tags span:after {
+	content: ",";
+}
+
+.thumbnail .thumb_tags span:last-child:after {
+	content: "";
+}
+
+.thumbnail .thumb_tags a {
+	color: #aaa;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+.thumbnail .thumb_tags a:hover {
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+
+.thumbnail .thumb_tags a:active {
+	border-bottom: 1px solid #999;
+	color: #999;
+}
+
+.thumbnail > a {
+	text-decoration: none;
+}
+
+.thumbnail .thumb_excerpt {
+	display: none;
+	font-size: 12px;
+	margin-top: 22px;
+}
+
+
+
+
 
 p {
   margin: 10px 0 15px 0;
