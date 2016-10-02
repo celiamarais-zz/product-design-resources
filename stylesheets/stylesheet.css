@@ -425,16 +425,16 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
-
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+.noborder {
+border: none;	
 }
 
 p img {
@@ -644,13 +644,12 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
+
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 180px;
+  text-align: middle;
 }
 
 #footer_wrap {
