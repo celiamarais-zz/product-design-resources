@@ -313,12 +313,7 @@ Small Device Styles
     .site_header .header_text .big_screen_title {	
 	    display: none;
 	}
-	
-    .site_header .header_text {	
-	    font-size: 12px;
-	}
-	
-	
+		
   body {
     font-size:14px;
   }
