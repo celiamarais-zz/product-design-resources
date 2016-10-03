@@ -70,7 +70,7 @@ body {
   padding: 40px;
 }
 
-.copy :first-child {
+.copy:first-child {
   padding-top: 18px;
 }
 
