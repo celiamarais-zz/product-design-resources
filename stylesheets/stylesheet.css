@@ -305,7 +305,7 @@ Small Device Styles
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 980px) {
     .site_header .header_text .small_screen_title {	
 	    display: block;
 	}
