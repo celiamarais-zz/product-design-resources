@@ -336,10 +336,10 @@ Small Device Styles
 */
 .thumbnail {
 	display: block;
-	/*margin: auto;
+	margin: auto;
 	position: relative;
 	text-align: center;
-	vertical-align: top;*/
+	vertical-align: top;
     padding-bottom: 60px;
     max-width: 100%;
 }
