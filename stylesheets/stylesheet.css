@@ -75,7 +75,6 @@ h1 {
 
 h2 {
 	font-size: 18px;
-	text-rendering: optimizeLegibility;
   color: #515151
 }
 
@@ -96,7 +95,6 @@ color: #515151;
 	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 24px;
-	text-rendering: optimizeLegibility;
     position: fixed;
     min-height: 80px;
     z-index: 999;
@@ -265,7 +263,7 @@ body[data-view="index"] .thumbnails {
 	text-align: center;
 	vertical-align: top;
     padding-bottom: 60px;
-    width: 100% !important;
+    width: 100%;
 }
 
 .thumbnail > a:hover .thumb_title span {
@@ -329,7 +327,6 @@ body[data-view="index"] .thumbnails {
 	font-size: 18px;
 	letter-spacing: 1px;
 	line-height: 1.4;
-	text-rendering: optimizeLegibility;
 }
 
 .thumbnail .thumb_title span {
@@ -382,7 +379,7 @@ body[data-view="index"] .thumbnails {
 
 
 p {
-  margin: 10px 0 15px 0;
+text-align: center;
 }
 
 footer p {
@@ -425,11 +422,6 @@ img {
   position: relative;
   margin: 0 auto;
   border: 1px solid #ebebeb;
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 .noborder {
@@ -557,6 +549,7 @@ Full-Width Styles
   max-width: 980px;
   padding: 20px 10px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #forkme_banner {
