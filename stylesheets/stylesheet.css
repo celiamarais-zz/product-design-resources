@@ -140,15 +140,27 @@ color: #515151;
 	right: 0px;
         top: 0px;
 	z-index: 999;
-	text-decoration: underline;
 }
 
 
 .navigation div {
 	display: inline-block;
 	margin: 0px 8px 0px 8px;
+	border-bottom: 2px solid #999;
 	/*opacity: 0.4;*/
 }
+
+.navigation div:a {
+	border-bottom: none;
+}
+
+.navigation div:hover,
+.navigation div:active {
+	border-bottom: none;
+	color: #515151;
+}
+
+
 /*
 .navigation div:hover {
 	opacity: 1;
@@ -172,7 +184,7 @@ color: #515151;
 
 .navigation .active {
 	color: #515151;
-}*/
+}
 
 .navigation a {
 	text-decoration: none;
@@ -183,11 +195,10 @@ color: #515151;
 .navigation a:active {
 	text-decoration: none;
 	color: #515151;
-	/*
-	border-bottom: 1px solid #515151;*/
+	border-bottom: 1px solid #515151;
 }
 
-/*.navigation div.active a {
+.navigation div.active a {
 color: #515151;
 	border-bottom: 2px solid #515151;
 }
