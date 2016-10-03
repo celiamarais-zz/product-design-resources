@@ -307,10 +307,12 @@ Small Device Styles
     font-size:14px;
   }
 
- .inner {
-    min-width: 320px;
+ /*.inner {
+    /*min-width: 320px;
     max-width: 480px;
-  }
+padding: 20px 40px 20px 40px;
+  margin: 140px auto 100px auto;
+  }*/
 
   h1 {
     font-size: 18px;
