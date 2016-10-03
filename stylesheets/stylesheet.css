@@ -93,7 +93,7 @@ color: #515151;
 
 
 /**
- * Header image and header text
+ * Header text
  */
 
 
@@ -105,6 +105,9 @@ color: #515151;
 	z-index: 111;
 }
 
+.site_header .header_text .small_screen_title {	
+	    display: none;
+	}
 
 .header_text a { 
 	text-decoration: none;
@@ -303,9 +306,26 @@ Small Device Styles
 
 
 @media screen and (max-width: 480px) {
+    .site_header .header_text .small_screen_title {	
+	    display: block;
+	}
+	
+    .site_header .header_text .big_screen_title {	
+	    display: none;
+	}
+	
+    .site_header .header_text {	
+	    font-size: 12px;
+	}
+	
+	
   body {
     font-size:14px;
   }
+	
+.thumbnail {
+    padding-bottom: 40px;
+}
 
  /*.inner {
     /*min-width: 320px;
@@ -315,7 +335,7 @@ padding: 20px 40px 20px 40px;
   }*/
 
   h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
 }
