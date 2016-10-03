@@ -243,10 +243,10 @@ Full-Width Styles
 }
 
 .inner {
-  padding-top: 20px 40px 20px 40px;
+  padding: 20px 40px 20px 40px;
   position: relative;
   max-width: 980px;
-  margin: 180px auto 180px auto;
+  margin: 140px auto 100px auto;
   text-align: center;
 }
 
@@ -285,7 +285,7 @@ Small Device Styles
     .site_header .header_text {
     position: relative;
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 15px 20px 0 20px;
     text-align: center;
 	}
@@ -293,7 +293,7 @@ Small Device Styles
     .site_header .navigation {
     position: relative;
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 10px 20px 14px 20px;
     text-align: center;
 
@@ -307,19 +307,13 @@ Small Device Styles
     font-size:14px;
   }
 
-  .inner {
+  /*.inner {
     min-width: 320px;
     max-width: 480px;
-  }
+  }*/
 
   h1 {
     font-size: 18px;
-  }
-
-  code, pre {
-    min-width: 320px;
-    max-width: 480px;
-    font-size: 11px;
   }
 
 }
