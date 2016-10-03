@@ -140,7 +140,6 @@ color: #515151;
 	right: 0px;
         top: 0px;
 	z-index: 999;
-		color: #515151;
 	/*text-decoration: underline;*/
 }
 
@@ -148,10 +147,11 @@ color: #515151;
 .navigation div {
 	display: inline-block;
 	margin: 0px 8px 0px 8px;
+	color: #515151;
 	border-bottom: 1px solid #515151;
-	/*opacity: 0.4;
+	/*opacity: 0.4;*/
 }
-
+/*
 .navigation div:hover {
 	opacity: 1;
 }
@@ -160,7 +160,7 @@ color: #515151;
 	opacity: 0.25;
 }
 
-/*.navigation div.set_link {
+.navigation div.set_link {
 	opacity: 1;
 }
 
