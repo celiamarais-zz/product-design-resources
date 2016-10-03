@@ -81,6 +81,7 @@ h2 {
 .copy {
   max-width: 680px;
   padding: 20px;
+  margin: auto;
 }
 
 .dark {
