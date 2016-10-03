@@ -102,6 +102,7 @@ color: #515151;
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	padding: 15px 15px 15px 35px;
 	z-index: 111;
 }
 
@@ -127,7 +128,8 @@ color: #515151;
  */
 
 .navigation {
-	position: relative;
+	position: fixed;
+	padding: 15px 35px 15px 15px;
 	right: 0px;
         top: 0px;
 	z-index: 999;
