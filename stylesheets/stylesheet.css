@@ -51,7 +51,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   background: #fff;
-	color: #999;
+		color: #999;
 	font-family: sans-serif;
 	font-size: 18px;
 	line-height: 1.6;
@@ -63,20 +63,6 @@ body {
 /**
  * Typography
  */
-
-h1, h2 {
-    font-weight: normal;
-}
-
-h1 {
-	font-size: 26px;
-    color: #515151
-}
-
-h2 {
-  font-size: 18px;
-  color: #515151
-}
 
 .copy {
   max-width: 680px;
@@ -97,9 +83,6 @@ color: #515151;
 .site_header {
 	color: #000;
     top: 0px;
-	font-size: 14px;
-	letter-spacing: 1px;
-	line-height: 24px;
     position: fixed;
     min-height: 80px;
     z-index: 999;
@@ -121,14 +104,7 @@ color: #515151;
 	z-index: 999;
 }
 
-.header_image img {
-	border: 0;
-}
-
-
 .header_text {
-	font-size: 14px;
-	font-weight: normal;
 	position: fixed;
 	top: 0px;
     padding: 35px 20px 0px 35px;
@@ -136,14 +112,8 @@ color: #515151;
 	z-index: 111;
 }
 
-.header_text
-{
-    color: #999;
-   
-}
 
-.header_text a {
-	color: #999;    
+.header_text a { 
 	text-decoration: none;
 }
 
@@ -245,6 +215,177 @@ body:not([data-bodyview="set"]) .navigation .set_link.active a:hover {
 	border-bottom: 1px solid #000;
 	color: #000;
 }
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-shadow: none;
+  transition: color 0.5s ease;
+  transition: text-shadow 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -webkit-transition: text-shadow 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -ms-transition: text-shadow 0.5s ease;
+}
+
+a:hover, a:focus {
+	color: inherit;
+	text-decoration: none;
+ }
+
+footer a {
+  color: #F2F2F2;
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  max-width: 100%;
+}
+
+.noborder img {
+border: 0;	
+}
+
+pre, code {
+  width: 100%;
+  color: #222;
+  background-color: #fff;
+
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+pre {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+}
+
+code {
+  padding: 3px;
+  margin: 0 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+pre code {
+  display: block;
+  box-shadow: none;
+}
+
+
+/*******************************************************************************
+Full-Width Styles
+*******************************************************************************/
+
+.outer {
+  max-width: 100%;
+}
+
+.inner {
+  padding-top: 0 40px 0 40px;
+  position: relative;
+  max-width: 980px;
+  margin: 180px auto 180px auto;
+  text-align: center;
+}
+
+
+#main_content_wrap {
+
+}
+
+#main_content {
+
+}
+
+#footer_wrap {
+  background: #212121;
+}
+
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h1 {
+	font-size: 26px;
+    color: #515151
+}
+
+h2 {
+  font-size: 18px;
+  color: #515151
+}
+
+
+
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size:14px;
+  }
+
+  .inner {
+    min-width: 320px;
+    max-width: 480px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  code, pre {
+    min-width: 320px;
+    max-width: 480px;
+    font-size: 11px;
+  }
+
+}
+
 
 
 /**
@@ -377,158 +518,4 @@ body[data-view="index"] .thumbnails {
 	display: none;
 	font-size: 12px;
 	margin-top: 22px;
-}
-
-
-a {
-  text-decoration: none;
-  color: #007edf;
-  text-shadow: none;
-  transition: color 0.5s ease;
-  transition: text-shadow 0.5s ease;
-  -webkit-transition: color 0.5s ease;
-  -webkit-transition: text-shadow 0.5s ease;
-  -moz-transition: color 0.5s ease;
-  -moz-transition: text-shadow 0.5s ease;
-  -o-transition: color 0.5s ease;
-  -o-transition: text-shadow 0.5s ease;
-  -ms-transition: color 0.5s ease;
-  -ms-transition: text-shadow 0.5s ease;
-}
-
-a:hover, a:focus {
-	text-decoration: none;
-	  color: #007edf;}
-
-footer a {
-  color: #F2F2F2;
-  text-decoration: underline;
-}
-
-em {
-  font-style: italic;
-}
-
-strong {
-  font-weight: bold;
-}
-
-img {
-  position: relative;
-  margin: 0 auto;
-  border: 1px solid #e1e1e1;
-  max-width: 100%;
-}
-
-.noborder img {
-border: 0;	
-}
-
-pre, code {
-  width: 100%;
-  color: #222;
-  background-color: #fff;
-
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
-
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-}
-
-pre {
-  width: 100%;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-  overflow: auto;
-}
-
-code {
-  padding: 3px;
-  margin: 0 3px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-
-pre code {
-  display: block;
-  box-shadow: none;
-}
-
-
-/*******************************************************************************
-Full-Width Styles
-*******************************************************************************/
-
-.outer {
-  max-width: 100%;
-}
-
-.inner {
-  padding-top: 0 40px 0 40px;
-  position: relative;
-  max-width: 980px;
-  margin: 180px auto 180px auto;
-  text-align: center;
-}
-
-
-#main_content_wrap {
-
-}
-
-#main_content {
-
-}
-
-#footer_wrap {
-  background: #212121;
-}
-
-
-
-/*******************************************************************************
-Small Device Styles
-*******************************************************************************/
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size:14px;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
-  code, pre {
-    min-width: 320px;
-    max-width: 480px;
-    font-size: 11px;
-  }
-
 }
