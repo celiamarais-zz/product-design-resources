@@ -445,13 +445,14 @@ padding: 20px 40px 20px 40px;*/
 }
 
 .thumbnail .thumb_title span {
-	color: #000;
+	color: #515151;
 
 }
 
 .thumbnail .thumb_tags {
+	display: none;
 	margin-top: 2px;
-	color: #aaa;
+	color: #999;
 	font-size: 11px;
 	font-family: sans-serif;
 }
