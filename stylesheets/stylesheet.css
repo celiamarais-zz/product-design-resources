@@ -269,129 +269,6 @@ img {
 border: 0;	
 }
 
-
-/*******************************************************************************
-Full-Width Styles
-*******************************************************************************/
-
-.outer {
-  max-width: 100%;
-}
-
-.inner {
-  /*padding: 0 40px 0 40px;*/
-  position: relative;
-  max-width: 980px;
-  margin: 120px auto 100px auto;
-  text-align: center;
-}
-
-
-#main_content_wrap {
-
-}
-
-#main_content {
-
-}
-
-#footer_wrap {
-  background: #212121;
-}
-
-
-h1 {
-  font-weight: normal;
-  padding-bottom: 0;
-margin: 0;
-  font-size: 26px;
-  color: #515151
-}
-
-
-
-/*******************************************************************************
-Small Device Styles
-*******************************************************************************/
-
-
-/**** header ****/
-
-@media only screen and (max-width: 980px) {
-	    
-    .site_header .header_text {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 15px 0 0 0;
-    text-align: center;
-	}
-	
-    .site_header .navigation {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 6px 0 14px 0;
-    text-align: center;
-
-	}
-
-
-    .site_header .header_text .small_screen_title {	
-	    display: block;
-	}
-	
-    .site_header .header_text .big_screen_title {	
-	    display: none;
-	}
-		
-  body {
-    font-size:14px;
-  }
-
-.inner {
-    /*min-width: 320px;
-    max-width: 480px;
-padding: 20px 40px 20px 40px;*/
-  margin: 100px auto 40px auto;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-	.about .copy {
-padding-top: 12px;
-padding-bottom: 50px;
-}
-
-.thumbnail {
-    padding-bottom: 20px;
-}
-	
-.thumbnail .thumb_title {
-	font-size: inherit;
-	}
-	
-.copy {
-  padding: 30px;
-}
-
-.copy:nth-child(2) {
-  padding-top: 12px;
-}
-
-.small {
-    padding-top: 8px;
-    max-width: 600px;
-    font-size: 12px;
-    margin: auto;
-}
-
-}
-
-
-
 /**
  * Thumbnails
  */
@@ -406,13 +283,14 @@ padding-bottom: 50px;
 	padding: 180px 0px 70px 0px;
 }
 */
+
 .thumbnail {
 	display: block;
 	margin: auto;
 	position: relative;
 	text-align: center;
 	vertical-align: top;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     max-width: 100%;
 }
 
@@ -521,3 +399,125 @@ padding-bottom: 50px;
 	font-size: 12px;
 	margin-top: 22px;
 }
+
+
+/*******************************************************************************
+Full-Width Styles
+*******************************************************************************/
+
+.outer {
+  max-width: 100%;
+}
+
+.inner {
+  /*padding: 0 40px 0 40px;*/
+  position: relative;
+  max-width: 980px;
+  margin: 120px auto 100px auto;
+  text-align: center;
+}
+
+
+#main_content_wrap {
+
+}
+
+#main_content {
+
+}
+
+#footer_wrap {
+  background: #212121;
+}
+
+
+h1 {
+  font-weight: normal;
+  padding-bottom: 0;
+margin: 0;
+  font-size: 26px;
+  color: #515151
+}
+
+
+
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+
+
+/**** header ****/
+
+@media only screen and (max-width: 980px) {
+	    
+    .site_header .header_text {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 15px 0 0 0;
+    text-align: center;
+	}
+	
+    .site_header .navigation {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 6px 0 14px 0;
+    text-align: center;
+
+	}
+
+
+    .site_header .header_text .small_screen_title {	
+	    display: block;
+	}
+	
+    .site_header .header_text .big_screen_title {	
+	    display: none;
+	}
+		
+  body {
+    font-size:14px;
+  }
+
+.inner {
+    /*min-width: 320px;
+    max-width: 480px;
+padding: 20px 40px 20px 40px;*/
+  margin: 100px auto 40px auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+	.about .copy {
+padding-top: 12px;
+padding-bottom: 50px;
+}
+
+.thumbnail {
+    padding-bottom: 10px;
+}
+	
+.thumbnail .thumb_title {
+	font-size: 14px;
+	}
+	
+.copy {
+  padding: 30px;
+}
+
+.copy:nth-child(2) {
+  padding-top: 12px;
+}
+
+.small {
+    padding-top: 8px;
+    max-width: 600px;
+    font-size: 12px;
+    margin: auto;
+}
+
+}
+
