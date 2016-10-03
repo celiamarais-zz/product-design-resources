@@ -370,7 +370,7 @@ padding-bottom: 50px;
 }
 	
 .thumbnail .thumb_title {
-	font-size: 16px;
+	font-size: inherit;
 	}
 	
 .copy {
