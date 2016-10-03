@@ -232,37 +232,6 @@ img {
 border: 0;	
 }
 
-pre, code {
-  width: 100%;
-  color: #222;
-  background-color: #fff;
-
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
-
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-}
-
-pre {
-  width: 100%;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-  overflow: auto;
-}
-
-code {
-  padding: 3px;
-  margin: 0 3px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-
-pre code {
-  display: block;
-  box-shadow: none;
-}
-
 
 /*******************************************************************************
 Full-Width Styles
@@ -311,11 +280,11 @@ Small Device Styles
 /**** header ****/
 
 @media only screen and (max-width: 980px) {
-	.site_header .navigation {
+    .site_header .navigation {
     position: relative;
     display: block;
     width: 100%;
-    padding: 15px 15px 0px 15px;
+    padding: 10px 15px 0px 15px;
     text-align: center;
 
 	}
@@ -324,7 +293,7 @@ Small Device Styles
     position: relative;
     display: block;
     width: 100%;
-    padding: 35px 15px 0px 15px;
+    padding: 10px 15px 0px 15px;
     text-align: center;
 	}
 }
