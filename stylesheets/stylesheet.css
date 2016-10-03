@@ -146,7 +146,7 @@ color: #515151;
 .navigation div {
 	display: inline-block;
 	margin: 0px 8px 0px 8px;
-	opacity: 0.4;
+	/*opacity: 0.4;
 }
 
 .navigation div:hover {
@@ -154,7 +154,7 @@ color: #515151;
 }
 
 .navigation div:active {
-	opacity: 0.25;
+	opacity: 0.25;*/
 }
 
 /*.navigation div.set_link {
