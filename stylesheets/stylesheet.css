@@ -84,7 +84,7 @@ color: #515151;
     font-size: 14px;
     top: 0px;
     position: fixed;
-    min-height: 52px;
+    height: 52px;
     z-index: 999;
     width: 100%;
     background-color: #fff;
@@ -281,6 +281,10 @@ Small Device Styles
 /**** header ****/
 
 @media only screen and (max-width: 980px) {
+	
+    .site_header {
+    height: 52px;
+}
 	    
     .site_header .header_text {
     position: relative;
