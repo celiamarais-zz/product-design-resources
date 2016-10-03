@@ -80,6 +80,7 @@ padding-bottom: 60px;
 }
 
 .small {
+    padding-top: 10px;
     max-width: 600px;
     font-size: 14px;
     margin: auto;
@@ -378,6 +379,7 @@ padding-bottom: 50px;
 }
 
 .small {
+    padding-top: 8px;
     max-width: 600px;
     font-size: 12px;
     margin: auto;
