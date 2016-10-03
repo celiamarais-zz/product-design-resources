@@ -89,7 +89,7 @@ color: #515151;
     width: 100%;
     background-color: #fff;
     opacity: 0.95;
-    padding-bottom: 18px;
+    padding: 15px 35px 15px 35px;
 }
 
 
@@ -127,9 +127,9 @@ color: #515151;
  */
 
 .navigation {
-	position: fixed;
+	position: relative;
 	right: 0px;
-  top: 0px;
+        top: 0px;
 	z-index: 999;
 }
 
