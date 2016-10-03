@@ -70,13 +70,10 @@ body {
   padding: 40px;
 }
 
-/*.copy:first-child {
+.copy:nth-child(2) {
   padding-top: 18px;
-}*/
-
-div.copy:first-child {
-  padding-top: 10px;
 }
+
 
 .dark {
 color: #515151;	
