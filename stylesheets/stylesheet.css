@@ -70,10 +70,13 @@ body {
   padding: 40px;
 }
 
-.copy:first-child {
+/*.copy:first-child {
   padding-top: 18px;
-}
+}*/
 
+div.copy:first-child {
+  padding-top: 10px;
+}
 
 .dark {
 color: #515151;	
@@ -254,7 +257,7 @@ Full-Width Styles
   /*padding: 0 40px 0 40px;*/
   position: relative;
   max-width: 980px;
-  margin: 100px auto 100px auto;
+  margin: 120px auto 100px auto;
   text-align: center;
 }
 
