@@ -302,10 +302,7 @@ Small Device Styles
 
 	}
 
-}
 
-
-@media screen and (max-width: 980px) {
     .site_header .header_text .small_screen_title {	
 	    display: block;
 	}
@@ -322,12 +319,12 @@ Small Device Styles
     padding-bottom: 40px;
 }
 
- /*.inner {
+.inner {
     /*min-width: 320px;
     max-width: 480px;
-padding: 20px 40px 20px 40px;
-  margin: 140px auto 100px auto;
-  }*/
+padding: 20px 40px 20px 40px;*/
+  margin: 80px auto 40px auto;
+  }
 
   h1 {
     font-size: 20px;
