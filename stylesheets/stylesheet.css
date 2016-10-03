@@ -150,12 +150,12 @@ color: #515151;
 	/*opacity: 0.4;*/
 }
 
-.navigation div:a {
+.navigation div a {
 	border-bottom: none;
 }
 
-.navigation div:hover,
-.navigation div:active {
+.navigation div a:hover,
+.navigation div a:active {
 	border-bottom: none;
 	color: #515151;
 }
