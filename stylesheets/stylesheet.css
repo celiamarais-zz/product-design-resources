@@ -51,7 +51,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   background: #fff;
-		color: #999;
+	color: #999;
 	font-family: sans-serif;
 	font-size: 18px;
 	line-height: 1.6;
@@ -66,8 +66,8 @@ body {
 
 .copy {
   max-width: 680px;
-  padding: 20px;
   margin: auto;
+  padding: 40px 0 40px 0;
 }
 
 .dark {
@@ -101,7 +101,7 @@ color: #515151;
 .header_text {
 	position: fixed;
 	top: 0px;
-    padding: 35px 20px 0px 35px;
+  padding: 35px 20px 0px 35px;
 	left: 0px;
 	z-index: 111;
 }
@@ -117,7 +117,7 @@ color: #515151;
 }
 
 .header_text a:active {
-	color: #999999;
+	color: #999;
 	border-bottom: 0;
 }
 
@@ -167,7 +167,6 @@ color: #515151;
 }
 
 .navigation a {
-	text-decoration: none;
 	color: #000;
 }
 
@@ -276,7 +275,7 @@ Full-Width Styles
 }
 
 .inner {
-  padding-top: 0 40px 0 40px;
+  padding-top: 20px 40px 20px 40px;
   position: relative;
   max-width: 980px;
   margin: 180px auto 180px auto;
@@ -303,12 +302,11 @@ h1, h2 {
 
 h1 {
 	font-size: 26px;
-    color: #515151
+  color: #515151
 }
 
 h2 {
-  font-size: 18px;
-  color: #515151
+
 }
 
 
@@ -351,7 +349,7 @@ Small Device Styles
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 18px;
   }
 
   h2 {
