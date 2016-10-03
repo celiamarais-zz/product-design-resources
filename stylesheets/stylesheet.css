@@ -348,10 +348,6 @@ Small Device Styles
   body {
     font-size:14px;
   }
-	
-.thumbnail {
-    padding-bottom: 40px;
-}
 
 .inner {
     /*min-width: 320px;
@@ -369,6 +365,13 @@ padding-top: 12px;
 padding-bottom: 50px;
 }
 
+.thumbnail {
+    padding-bottom: 20px;
+}
+	
+.thumbnail .thumb_title {
+	font-size: 16px;
+	}
 	
 .copy {
   padding: 30px;
