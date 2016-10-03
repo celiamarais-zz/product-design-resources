@@ -148,6 +148,7 @@ color: #515151;
 	display: inline-block;
 	margin: 0px 8px 0px 8px;
 	color: #515151;
+	text-decoration: underline;
 	/*opacity: 0.4;*/
 }
 /*
@@ -176,11 +177,13 @@ color: #515151;
 }*/
 
 .navigation a {
+	text-decoration: none;
 	color: #999;
 }
 
 .navigation a:hover,
 .navigation a:active {
+	text-decoration: none;
 	color: #515151;
 	/*
 	border-bottom: 1px solid #515151;*/
