@@ -157,7 +157,7 @@ color: #515151;
 	opacity: 0.25;
 }
 
-.navigation div.set_link {
+/*.navigation div.set_link {
 	opacity: 1;
 }
 
@@ -167,23 +167,26 @@ color: #515151;
 
 .navigation div.set_link a:active {
 	opacity: 0.25;
-}
+}*/
 
 .navigation .active {
-	opacity: 1;
+	color: #515151;
 }
 
 .navigation a {
-	color: #515151;
+	color: #999;
 }
 
 .navigation a:hover,
 .navigation a:active {
-	border-bottom: 1px solid #515151;
+	color: #515151;
+	/*
+	border-bottom: 1px solid #515151;*/
 }
 
 .navigation div.active a {
-	border-bottom: 2px solid #515151;
+color: #515151;
+	/*border-bottom: 2px solid #515151;*/
 }
 
 /*body:not([data-bodyview="set"]) .navigation .set_link.active a {
@@ -303,7 +306,7 @@ Small Device Styles
     position: relative;
     display: block;
     width: 100%;
-    padding: 8px 0 14px 0;
+    padding: 6px 0 14px 0;
     text-align: center;
 
 	}
