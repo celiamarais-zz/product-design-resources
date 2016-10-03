@@ -84,7 +84,7 @@ color: #515151;
     font-size: 14px;
     top: 0px;
     position: fixed;
-    min-height: 40px;
+    min-height: 52px;
     z-index: 999;
     width: 100%;
     background-color: #fff;
@@ -294,7 +294,7 @@ Small Device Styles
     position: relative;
     display: block;
     width: 100%;
-    padding: 10px 0 0 0;
+    padding: 10px 0 14px 0;
     text-align: center;
 
 	}
