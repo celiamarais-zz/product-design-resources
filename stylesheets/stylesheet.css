@@ -65,7 +65,8 @@ body {
  */
 
 .about .copy {
-padding-top: 18px;	
+padding-top: 18px;
+padding-bottom: 50px;
 }
 
 .copy {
