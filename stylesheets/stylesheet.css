@@ -64,6 +64,10 @@ body {
  * Typography
  */
 
+.about .copy {
+padding-top: 18px;	
+}
+
 .copy {
   max-width: 680px;
   margin: auto;
