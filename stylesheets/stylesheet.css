@@ -74,10 +74,14 @@ h1 {
 }
 
 h2 {
-	font-size: 18px;
+  font-size: 18px;
   color: #515151
 }
 
+.copy {
+  max-width: 680px;
+  padding: 20px;
+}
 
 .dark {
 color: #515151;	
@@ -415,7 +419,7 @@ img {
   max-width: 100%;
 }
 
-.noborder {
+.noborder img {
 border: 0;	
 }
 
@@ -460,7 +464,7 @@ Full-Width Styles
 }
 
 .inner {
-  padding-top: 180px;
+  padding-top: 180px 40px 0 40px;
   position: relative;
   max-width: 980px;
   margin: auto;
