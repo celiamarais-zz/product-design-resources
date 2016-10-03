@@ -140,12 +140,15 @@ color: #515151;
 	right: 0px;
         top: 0px;
 	z-index: 999;
+		color: #515151;
+	/*text-decoration: underline;*/
 }
 
 
 .navigation div {
 	display: inline-block;
 	margin: 0px 8px 0px 8px;
+	border-bottom: 1px solid #515151;
 	/*opacity: 0.4;
 }
 
@@ -154,7 +157,7 @@ color: #515151;
 }
 
 .navigation div:active {
-	opacity: 0.25;*/
+	opacity: 0.25;
 }
 
 /*.navigation div.set_link {
@@ -167,11 +170,11 @@ color: #515151;
 
 .navigation div.set_link a:active {
 	opacity: 0.25;
-}*/
+}
 
 .navigation .active {
 	color: #515151;
-}
+}*/
 
 .navigation a {
 	color: #999;
@@ -184,9 +187,9 @@ color: #515151;
 	border-bottom: 1px solid #515151;*/
 }
 
-.navigation div.active a {
+/*.navigation div.active a {
 color: #515151;
-	/*border-bottom: 2px solid #515151;*/
+	border-bottom: 2px solid #515151;
 }
 
 /*body:not([data-bodyview="set"]) .navigation .set_link.active a {
