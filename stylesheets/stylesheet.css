@@ -465,10 +465,10 @@ Full-Width Styles
 }
 
 .inner {
-  padding-top: 180px 40px 0 40px;
+  padding-top: 0 40px 0 40px;
   position: relative;
   max-width: 980px;
-  margin: auto;
+  margin: 180px auto 180px auto;
   text-align: center;
 }
 
