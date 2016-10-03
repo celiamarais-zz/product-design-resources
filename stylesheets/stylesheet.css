@@ -79,6 +79,11 @@ padding-bottom: 60px;
   padding-top: 18px;
 }
 
+.small {
+    max-width: 600px;
+    font-size: 14px;
+    margin: auto;
+}
 
 .dark {
 color: #515151;	
@@ -372,6 +377,11 @@ padding-bottom: 50px;
   padding-top: 12px;
 }
 
+.small {
+    max-width: 600px;
+    font-size: 12px;
+    margin: auto;
+}
 
 }
 
