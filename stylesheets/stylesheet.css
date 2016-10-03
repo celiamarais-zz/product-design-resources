@@ -412,10 +412,11 @@ img {
   position: relative;
   margin: 0 auto;
   border: 1px solid #e1e1e1;
+  max-width: 100%;
 }
 
 .noborder {
-border: none;	
+border: 0;	
 }
 
 pre, code {
